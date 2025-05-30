@@ -1,89 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nitu Bola | Data Portfolio</title>
-  <style>
-    body {
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #f4f6f8;
-      color: #333;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.2rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-    .project {
-      background: #fff;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border-left: 5px solid #007acc;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    .project h3 {
-      margin-top: 0;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      margin-top: 4rem;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amandeep Kaur - Data Portfolio</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px 0;
+        }
+
+        /* About Section */
+        #about .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Projects Section */
+        #projects .project {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #projects a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Nitu Bola</h1>
-    <p>Data Analyst | Salesforce Certified | Former CS Professor</p>
-    <p>Email: <a href="mailto:nitubola88@gmail.com">nitubola88@gmail.com</a></p>
-  </header>
 
-  <section>
-    <h2>Projects</h2>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="project">
-      <h3>EV Adoption Trends & Charging Station Analysis</h3>
-      <p>Explored global EV adoption using public datasets. Visualized trends and spatial data using interactive maps.</p>
-      <p><strong>Tools:</strong> Python, Pandas, Leaflet.js, SQL</p>
-      <p><a href="#">GitHub</a> | <a href="#">Live Demo</a></p>
-    </div>
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>Hi, I'm Amandeep Kaur! I'm a Data Analyst and Data Scientist with a passion for solving problems using data to derive insights and make data-driven decisions. I'm always learning and looking for opportunities to apply my skills in new and exciting ways.</p>
+            <img src="https://via.placeholder.com/150" alt="Amandeep Kaur">
+        </div>
+    </section>
 
-    <div class="project">
-      <h3>Movie Recommendation System</h3>
-      <p>Built a hybrid recommendation system using collaborative and content-based filtering approaches.</p>
-      <p><strong>Tools:</strong> Python, Scikit-learn, Flask, TMDB, MovieLens</p>
-      <p><a href="#">GitHub</a></p>
-    </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Data Visualization with Python</h3>
+            <p>Explore how I visualized global electric vehicle adoption trends using various Python libraries.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Machine Learning Model for Predictive Analysis</h3>
+            <p>Built a machine learning model to predict customer churn using real-world business data.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
 
-    <div class="project">
-      <h3>Sales Dashboard in Tableau</h3>
-      <p>Interactive Tableau dashboard to analyze sales trends and product performance.</p>
-      <p><strong>Tools:</strong> Tableau, Excel</p>
-      <p><a href="#">View Dashboard</a></p>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me via <a href="mailto:akdeep993@gmail.com">email</a>, or find me on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
+    </section>
 
-  <footer>
-    <p>© 2025 Nitu Bola</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Amandeep Kaur. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth Scroll JavaScript (optional)
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll("nav ul li a");
+            links.forEach(link => {
+                link.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const targetId = e.target.getAttribute("href").substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 60,
+                        behavior: "smooth"
+                    });
+                });
+            });
+        });
+    </script>
+
 </body>
+
 </html>
+
